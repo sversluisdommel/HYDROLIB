@@ -677,7 +677,7 @@ class DRTCModel:
                 c.text = "instantaneous"
                 c.tail = "\n"
                 d = ET.SubElement(b, gn_brackets + "locationId")
-                d.text = f"[TimeRule]Control Group {key}/Time Rule"
+                d.text = f"[TimeRule]Control group {key}/Time Rule"
                 d.tail = "\n"
                 e = ET.SubElement(b, gn_brackets + "parameterId")
                 e.text = "TimeSeries"
