@@ -656,9 +656,8 @@ def mesh2d_altitude_from_raster(
     )
     cells = network._mesh2d.mesh2d_face_nodes
     nodatavalue = np.iinfo(cells.dtype).min
-    print(nodatavalue)
     indices = cells != nodatavalue
-    print(indices)
+    indices = cells != -2147483648
     cells = [xy_facenodes[cell[index]] for cell, index in zip(cells, indices)]
     facedata = gpd.GeoDataFrame(geometry=[Polygon(cell) for cell in cells])
 
