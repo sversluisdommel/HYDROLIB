@@ -24,5 +24,4 @@ dependencies:
   - fire=0.4.0
   - rstr=2.2.6
   - pip:
-    - hydrolib-core==0.4.1
-    - git+https://github.com/Deltares/HYDROLIB.git@environment/update-toml-and-yaml
+    - hydrolib-core==0.4.1    
