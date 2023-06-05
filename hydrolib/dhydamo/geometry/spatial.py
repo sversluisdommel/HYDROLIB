@@ -15,7 +15,7 @@ from shapely.geometry import (
     box,
 )
 from shapely.prepared import prep
-from hydrolib.dhydamo.geometry import common
+from dhydamo.geometry import common
 
 logger = logging.getLogger(__name__)
 

@@ -16,8 +16,8 @@ from shapely.prepared import prep
 
 from hydrolib.core.dflowfm.net.models import Branch, Network
 from hydrolib.core.dflowfm.net.reader import UgridReader
-from hydrolib.dhydamo.geometry import common, rasterstats, spatial
-from hydrolib.dhydamo.geometry.models import GeometryList
+from dhydamo.geometry import common, rasterstats, spatial
+from dhydamo.geometry.models import GeometryList
 
 from scipy.spatial import KDTree
 from scipy.interpolate import LinearNDInterpolator

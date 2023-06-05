@@ -10,7 +10,7 @@ import pandas as pd
 from shapely import wkb
 from shapely.geometry import LineString, MultiPolygon, Point, Polygon
 
-from hydrolib.dhydamo.geometry import spatial
+from dhydamo.geometry import spatial
 
 logger = logging.getLogger()
 

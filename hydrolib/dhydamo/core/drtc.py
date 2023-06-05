@@ -9,7 +9,7 @@ from datetime import datetime as dt
 import xml.etree.ElementTree as ET
 
 from hydrolib.core.dflowfm.mdu.models import FMModel
-from hydrolib.dhydamo.core.hydamo import HyDAMO
+from dhydamo.core.hydamo import HyDAMO
 
 # TODO: these classes are generated from XSD-files, but still to figure out how to use them
 # from hydrolib.core.io.rtc.rtcruntimeconfig.models import *

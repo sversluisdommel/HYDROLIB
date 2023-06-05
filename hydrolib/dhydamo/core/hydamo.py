@@ -12,15 +12,15 @@ from scipy.spatial import KDTree
 from shapely.geometry import LineString, Point, Polygon
 from tqdm.auto import tqdm
 
-from hydrolib import dhydamo
-from hydrolib.dhydamo.converters.hydamo2df import (
+import dhydamo
+from dhydamo.converters.hydamo2df import (
     CrossSectionsIO,
     ExternalForcingsIO,
     RoughnessVariant,
     StructuresIO,
 )
-from hydrolib.dhydamo.geometry.spatial import find_nearest_branch
-from hydrolib.dhydamo.io.common import ExtendedDataFrame, ExtendedGeoDataFrame
+from dhydamo.geometry.spatial import find_nearest_branch
+from dhydamo.io.common import ExtendedDataFrame, ExtendedGeoDataFrame
 
 logger = logging.getLogger(__name__)
 

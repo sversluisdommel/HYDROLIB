@@ -12,7 +12,7 @@ from rasterio.windows import Window
 from pathlib import Path
 from typing import Union
 
-from hydrolib.dhydamo.geometry import common
+from dhydamo.geometry import common
 
 logger = logging.getLogger(__name__)
 

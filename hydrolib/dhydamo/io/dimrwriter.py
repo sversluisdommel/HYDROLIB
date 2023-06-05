@@ -5,8 +5,8 @@ from pathlib import Path
 from typing import Union
 from pydantic import validate_arguments
 
-from hydrolib.dhydamo.core.drtc import DRTCModel
-from hydrolib.dhydamo.core.drr import DRRModel
+from dhydamo.core.drtc import DRTCModel
+from dhydamo.core.drr import DRRModel
 from hydrolib.core.dflowfm.mdu.models import FMModel
 
 

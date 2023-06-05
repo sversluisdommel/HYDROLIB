@@ -10,7 +10,7 @@ from pydantic import validate_arguments
 from rasterstats import zonal_stats
 from tqdm.auto import tqdm
 
-from hydrolib.dhydamo.io.common import ExtendedDataFrame, ExtendedGeoDataFrame
+from dhydamo.io.common import ExtendedDataFrame, ExtendedGeoDataFrame
 
 logger = logging.getLogger(__name__)
 

@@ -9,7 +9,7 @@ import rasterio
 from pydantic import validate_arguments
 from rasterio.transform import from_origin
 
-from hydrolib.dhydamo.io import drrreader
+from dhydamo.io import drrreader
 
 logger = logging.getLogger(__name__)
 
