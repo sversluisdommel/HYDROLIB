@@ -6,8 +6,8 @@ import pandas as pd
 from pydantic import validate_arguments
 from shapely.geometry import Point
 
-from hydrolib.dhydamo.geometry.mesh import Network
-from hydrolib.dhydamo.io.common import ExtendedDataFrame, ExtendedGeoDataFrame
+from dhydamo.geometry.mesh import Network
+from dhydamo.io.common import ExtendedDataFrame, ExtendedGeoDataFrame
 
 logger = logging.getLogger(__name__)
 
