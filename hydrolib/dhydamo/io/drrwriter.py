@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 from shapely.geometry import LineString, Point, box
 
-from dhydamo.core.hydamo import HyDAMO
+from hydrolib.dhydamo.core.hydamo import HyDAMO
 
 # from delft3dfmpy.core.geometry import orthogonal_line
 
@@ -646,7 +646,7 @@ class DRRWriter:
             f.write("*jaar maand dag verdamping[mm]\n")
             f.close()
             table = list(self.rrmodel.external_forcings.evap.values())[0]["evap"]
-            table.to_csv(
+            table.sort_index().to_csv(
                 filepath,
                 float_format="%.3f",
                 date_format="%#Y  %#m  %#d ",
