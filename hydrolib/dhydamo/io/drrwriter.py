@@ -10,7 +10,7 @@ import numpy as np
 import pandas as pd
 from shapely.geometry import LineString, Point, box
 
-from hydrolib.dhydamo.core.hydamo import HyDAMO
+from dhydamo.core.hydamo import HyDAMO
 
 # from delft3dfmpy.core.geometry import orthogonal_line
 
