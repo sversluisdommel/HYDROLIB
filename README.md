@@ -1,5 +1,7 @@
 # HYDROLIB
 
+[![Binder](https://mybinder.org/badge_logo.svg)]([[https://mybinder.org/v2/gh/Deltares/HYDROLIB/binder/hkv?labpath=hydrolib%2Fnotebooks%2FHydrolib-DHydamo_usage_introduction.ipynb](https://mybinder.org/v2/gh/Deltares/HYDROLIB/binder-dsd-2023?labpath=hydrolib%2Fnotebooks%2FHydrolib-D-Dydamo_usage_introduction.ipynb)](https://mybinder.org/v2/gh/Deltares/HYDROLIB/binder-dsd-2023?labpath=hydrolib%2Fnotebooks%2FHydrolib-D-Dydamo_usage_introduction.ipynb))
+
 image:: https://mybinder.org/badge_logo.svg
  :target: https://mybinder.org/v2/gh/Deltares/HYDROLIB/binder-dsd-2023?labpath=hydrolib%2Fnotebooks%2FHydrolib-D-Dydamo_usage_introduction.ipynb
 
